@@ -27,5 +27,14 @@ namespace Records{
 
         bool isHired() const;
 
+
+
+        private:
+        std::string mFirstName;
+        std::string mLastName;
+        int mEmployeeNumber = -1;
+        int mSalary = 4000;//kDefaultStartingSalary
+        bool mHired = false;
+        
         };
 }
